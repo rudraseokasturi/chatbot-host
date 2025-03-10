@@ -71,7 +71,7 @@ async function sendMessage() {
             "Authorization": "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"
         },
         body: JSON.stringify({
-            model: "gpt-4",
+            model: "gpt-3.5-turbo",
             messages: [{"role": "system", "content": "You are a friendly chatbot that provides emotional support to Gen Z users."},
                        {"role": "user", "content": message}]
         })
