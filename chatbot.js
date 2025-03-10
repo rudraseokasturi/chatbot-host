@@ -47,7 +47,7 @@ chatWidget.innerHTML = `
             cursor: pointer;
         }
     </style>
-    <div id="chat-header">Loneliness Companion 💙</div>
+    <div id="chat-header">Ask Jo</div>
     <div id="chat-body"></div>
     <div id="chat-input">
         <input type="text" id="chat-message" placeholder="Type a message..." />
@@ -68,7 +68,7 @@ async function sendMessage() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "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"
+            "Authorization": "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"
         },
         body: JSON.stringify({
             model: "gpt-4",
