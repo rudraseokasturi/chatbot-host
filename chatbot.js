@@ -68,8 +68,7 @@ async function sendMessage() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            "Authorization": "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"
-        },
+            "Authorization": "},
         body: JSON.stringify({
             model: "gpt-3.5-turbo",
             messages: [{"role": "system", "content": "You are a friendly chatbot that provides emotional support to Gen Z users."},
